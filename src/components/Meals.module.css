@@ -1,0 +1,11 @@
+.meals {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  width: 90%;
+  max-width: 70rem;
+  list-style-type: none;
+  font-size: 2.5rem;
+  margin: 2rem auto;
+  padding: 1rem;
+  gap: 1rem;
+}
